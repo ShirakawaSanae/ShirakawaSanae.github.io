@@ -37,7 +37,7 @@ I am **Jingwen Sun**, a graduate student at the School of Computer Science, Univ
 {% endfor %}
 </div>
 
-<p class="section-action"><a href="{{ '/blog/' | relative_url }}">Writing and research notes</a></p>
+<p class="section-action"><a href="{{ '/blog/' | relative_url }}">Reading and research blogs</a></p>
 
 ## Projects
 
