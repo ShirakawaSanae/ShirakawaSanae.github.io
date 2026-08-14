@@ -101,7 +101,7 @@ Use `_drafts/` only for posts you are comfortable committing. Jekyll does not pu
 
 ## Local preview
 
-This site keeps Minimal Mistakes as a local Bundler theme gem. It does not use Jekyll's `remote_theme` download mechanism, so `bundle exec jekyll serve` does not fetch the theme from GitHub. The first `bundle install` downloads the theme from RubyGems and stores it in `vendor/bundle` on this computer.
+This site uses the GitHub Pages-compatible Minimal Mistakes remote theme pinned in `_config.yml`. On the first `bundle exec jekyll serve`, Jekyll downloads the theme from GitHub and caches it locally, so an internet connection is required.
 
 Install Ruby 3.3 with the MSYS2 DevKit from a VS Code PowerShell terminal:
 
@@ -121,7 +121,7 @@ bundle exec jekyll serve
 
 Open `http://localhost:4000`. Use `bundle exec jekyll serve --drafts` to preview files stored in `_drafts`, or `bundle exec jekyll serve --unpublished` to preview a post with `published: false`.
 
-If the theme needs to be refreshed later, run `bundle update minimal-mistakes-jekyll`. Do not add `jekyll-remote-theme` or `remote_theme` back to the configuration unless you deliberately want every fresh build to download the theme from GitHub.
+To update the theme later, change the version after `@` in `remote_theme` to an existing Minimal Mistakes release tag. Keep `jekyll-remote-theme` and `jekyll-include-cache` in the `plugins` list; GitHub Pages requires them for this theme.
 
 ## Upload to GitHub Pages
 
