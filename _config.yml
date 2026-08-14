@@ -1,13 +1,13 @@
 title: "Jingwen's Homepage"
-name: "Jingwen Sun 孙婧雯"
+name: "Jingwen Sun"
 email: "sunj1ngwen@mail.ustc.edu.cn"
 description: "Personal website of Jingwen."
-url: ""
+url: "https://ShirakawaSanae.github.io"
 baseurl: ""
 repository: "ShirakawaSanae/ShirakawaSanae.github.io"
 locale: "en-US"
 
-theme: "minimal-mistakes-jekyll"
+remote_theme: "mmistakes/minimal-mistakes@v4.24.0"
 minimal_mistakes_skin: "default"
 
 markdown: kramdown
@@ -17,12 +17,13 @@ include:
   - _pages
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-sitemap
 
 author:
-  name: "Jingwen Sun"
+  name: "Jingwen Sun, 孙婧雯"
   avatar: "/assets/images/IzumiKonata.svg"
   bio: "去吧去吧生命的飞奔，叫天风挽你坦荡地漫游"
   location: "USTC, China"
