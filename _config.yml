@@ -1,0 +1,65 @@
+title: "Jingwen's Homepage"
+name: "Jingwen Sun 孙婧雯"
+email: "sunj1ngwen@mail.ustc.edu.cn"
+description: "Personal website of Jingwen."
+url: ""
+baseurl: ""
+repository: "ShirakawaSanae/ShirakawaSanae.github.io"
+locale: "en-US"
+
+theme: "minimal-mistakes-jekyll"
+minimal_mistakes_skin: "default"
+
+markdown: kramdown
+permalink: /blog/:title/
+
+include:
+  - _pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-sitemap
+
+author:
+  name: "Jingwen Sun"
+  avatar: "/assets/images/IzumiKonata.svg"
+  bio: "去吧去吧生命的飞奔，叫天风挽你坦荡地漫游"
+  location: "USTC, China"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:sunj1ngwen@mail.ustc.edu.cn"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ShirakawaSanae"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ShirakawaSanae"
+
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      share: false
+      related: false
+      show_date: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      related: false

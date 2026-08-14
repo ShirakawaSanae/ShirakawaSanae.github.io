@@ -1,0 +1,13 @@
+# Each item links the Blog landing page to a category archive under /blog/.
+# To add a topic, add an entry here and create the matching file in _pages/blog/.
+- title: "Research"
+  slug: "research"
+  description: "Questions, methods, results, and work in progress."
+
+- title: "Reading"
+  slug: "reading"
+  description: "Notes on papers, books, talks, and useful ideas."
+
+- title: "Building"
+  slug: "building"
+  description: "Tools, code, systems, and lessons from making things."

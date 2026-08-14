@@ -1,0 +1,10 @@
+# Keep source files identical when the repository moves between Windows and macOS.
+* text=auto eol=lf
+
+# Treat generated and image assets as binary.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.pdf binary

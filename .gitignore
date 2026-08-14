@@ -1,0 +1,17 @@
+# Ruby and Jekyll build output
+.bundle/
+vendor/
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+Gemfile.lock
+
+# Local-only writing. Do not commit material that must remain private.
+private-drafts/
+reference/
+
+# Editor and operating-system files
+.DS_Store
+Thumbs.db
+.vscode/

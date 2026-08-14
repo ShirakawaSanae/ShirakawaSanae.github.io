@@ -1,0 +1,11 @@
+# Use a relative URL for an internal page or a full URL for an external project.
+- title: "Project One"
+  summary: "A concise description of the research question, tool, or system and its practical contribution."
+  tags: "Research, Open source"
+  url: ""
+
+- title: "Project Two"
+  summary: "A second project with enough context for a visitor to understand why it matters."
+  tags: "Data, Visualization"
+  url: ""
+

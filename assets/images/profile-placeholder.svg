@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" role="img" aria-labelledby="title desc">
+  <title id="title">Profile photo placeholder</title>
+  <desc id="desc">A simple academic profile silhouette in teal and gold.</desc>
+  <rect width="480" height="480" fill="#e9f1f0"/>
+  <circle cx="240" cy="180" r="90" fill="#006b70"/>
+  <path d="M72 445c18-104 89-166 168-166s150 62 168 166" fill="#20323a"/>
+  <path d="M139 415c21-51 58-82 101-82s80 31 101 82" fill="#a46e19" opacity=".92"/>
+</svg>
