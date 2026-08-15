@@ -6,7 +6,7 @@ permalink: /
 classes: wide
 ---
 
-I am **Jingwen Sun**, a graduate student at the School of Computer Science, University of Science and Technology of China(USTC). My research focus on AI infra and machine learning system. I am currently a member at [USTC MLSys Lab](https://ustc-mlsys.github.io), under the supervision of [Cheng Li](https://mr-cheng-li.github.io/) and [Youhui Bai](https://youhuibai.github.io/). I hope to do some safe, effective and elegant work :D .
+I am **Jingwen Sun**, a graduate student at the School of Computer Science, University of Science and Technology of China(USTC). My research focus on AI infra and machine learning system. I am currently a member at [USTC MLSys Lab](https://ustc-mlsys.github.io), under the supervision of [Cheng Li](https://mr-cheng-li.github.io/) and [Youhui Bai](https://youhuibai.github.io/). I hope to do some safe, effective and elegant work :D . I like hiking, reading, photography, and volunteer service.
 
 
 
@@ -37,7 +37,6 @@ I am **Jingwen Sun**, a graduate student at the School of Computer Science, Univ
 {% endfor %}
 </div>
 
-<p class="section-action"><a href="{{ '/blog/' | relative_url }}">Reading and research blogs</a></p>
 
 ## Projects
 
@@ -55,6 +54,24 @@ I am **Jingwen Sun**, a graduate student at the School of Computer Science, Univ
 {% endfor %}
 </ul>
 
-## Links
+## Extracurricular Commitment
+
+<ul class="academic-list project-list">
+{% for _item in site.data.commitment %}
+  <li class="project-item">
+    {% if _item.url %}
+    <strong class="project-title"><a href="{{ _item.url }}"{% if _item.url contains '://' %} rel="noopener" target="_blank"{% endif %}>{{ _item.title }}</a></strong>
+    {% else %}
+    <strong class="project-title">{{ _item.title }}</strong>
+    {% endif %}
+    <span class="project-summary"> - {{ _item.summary }}</span>
+    <span class="project-tags" aria-label="Project tags">{% assign project_tags = _item.tags | split: ',' %}{% for tag in project_tags %}<span class="project-tag">{{ tag | strip }}</span>{% endfor %}</span>
+  </li>
+{% endfor %}
+</ul>
+
+## Links and Blogs
 
 <p class="section-action"><a href="{{ '/links/' | relative_url }}">Friends, labs, and collaborators</a></p>
+
+<p class="section-action"><a href="{{ '/blog/' | relative_url }}">Reading and research blogs</a></p>
