@@ -4,38 +4,32 @@
 note: "资料仅供学习交流，文件版权归原作者或权利人所有。"
 
 sections:
-  - title: "课堂讲义与补充材料"
-    description: "评课社区链接，以及助教期间整理的代数学与教材补充资料。"
+  - title: "代数结构"
+    description: "课程评价、补充阅读、作业习题与期末复习资料。"
     items:
       - title: "评课社区"
         description: "Eastwind_ 徐班"
-        type: "网页"
         url: "https://www.icourse.club/course/14363/#review-55207"
       - title: "评课社区"
         description: "Eastwind_ 吕班"
-        type: "网页"
         url: "https://www.icourse.club/course/12381/#review-74703"
       - title: "代数学参考资料（2026 更新）"
         description: "包含群论入门、可视化群论与代数学讲义等补充阅读材料，难度略大，感兴趣可看。"
-        type: "ZIP"
         url: "/assets/course-materials/ustc-discrete-math/代数学参考资料-2026更新.zip"
       - title: "电子版教材与勘误（2025 更新）"
         description: "包含电子版教材与对应勘误。"
-        type: "ZIP"
         url: "/assets/course-materials/ustc-discrete-math/电子版教材-2025更新.zip"
-
-  - title: "作业与习题"
-    description: "作业、习题课资料与参考解答。"
-    items:
       - title: "2026 春 余班作业与习题课资料"
         description: ""
-        type: "ZIP"
         url: "/assets/course-materials/ustc-discrete-math/2026spring-余班-作业与习题课.zip"
-
-  - title: "考试与复习"
-    description: "历年期末试题，仅供复习参考。"
-    items:
       - title: "历年期末试题（2026 更新）"
         description: ""
-        type: "ZIP"
         url: "/assets/course-materials/ustc-discrete-math/历年期末-2026更新.zip"
+
+  - title: "图论"
+    description: ""
+    items: []
+
+  - title: "数理逻辑"
+    description: ""
+    items: []
