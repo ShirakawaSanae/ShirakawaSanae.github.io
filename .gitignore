@@ -10,6 +10,11 @@ Gemfile.lock
 # Local-only writing. Do not commit material that must remain private.
 private-drafts/
 reference/
+docs/
+
+# Keep the discrete-mathematics source PDFs local. The curated ZIP archives in
+# this directory are intentionally tracked and published as downloads.
+/assets/course-materials/ustc-discrete-math/*.pdf
 
 # Editor and operating-system files
 .DS_Store

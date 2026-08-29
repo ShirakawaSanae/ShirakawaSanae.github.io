@@ -4,12 +4,12 @@
   description: "[Lab-mate] at USTC MLSys"
 
 - name: "Xingye You"
-  url: "www.biumbiu.com"
+  url: "https://biumbiu.com/"
   description: "[Lab-mate] at USTC MLSys"
 
 - name: "Xinqi Chen"
   url: "https://github.com/chenxinqi041027"
-  description: "[Schoolmate] at USTC, studying Affective AI"
+  description: "[Schoolmate] at USTC, a Master student studying Affective AI"
 
 - name: "Yilin Han"
   url: "https://hanyilinn.github.io/EEG_Denoising_Review/"
@@ -21,4 +21,8 @@
 
 - name: "Yihan Zhou"
   url: "https://github.com/ruaruarua111"
-  description: "[Schoolmate] at USTC and now at CAS"
+  description: "[Schoolmate] at USTC and now researching computer architecture at CAS"
+
+- name: "Yuxin Zhang"
+  url: "https://a-green-hand-jack.github.io/"
+  description: "[Schoolmate] at USTC and now a CS PhD at KAUST"
