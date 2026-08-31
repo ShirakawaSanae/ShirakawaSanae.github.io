@@ -54,6 +54,22 @@ I am **Jingwen Sun**, a graduate student at the School of Computer Science, Univ
 {% endfor %}
 </ul>
 
+## Contests and Awards
+
+<ul class="academic-list project-list">
+{% for _item in site.data.contests_awards %}
+  <li class="project-item">
+    {% if _item.url %}
+    <strong class="project-title"><a href="{{ _item.url }}"{% if _item.url contains '://' %} rel="noopener" target="_blank"{% endif %}>{{ _item.title }}</a></strong>
+    {% else %}
+    <strong class="project-title">{{ _item.title }}</strong>
+    {% endif %}
+    <span class="project-summary"> - {{ _item.summary }}</span>
+    <span class="project-tags" aria-label="Project tags">{% assign project_tags = _item.tags | split: ',' %}{% for tag in project_tags %}<span class="project-tag">{{ tag | strip }}</span>{% endfor %}</span>
+  </li>
+{% endfor %}
+</ul>
+
 ## Extracurricular Commitment
 
 <ul class="academic-list project-list">
