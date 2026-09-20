@@ -10,7 +10,8 @@ Gemfile.lock
 # Local-only writing. Do not commit material that must remain private.
 private-drafts/
 reference/
-docs/
+
+# Public PDFs in docs/ are deployed with the site.
 
 # Keep the discrete-mathematics source PDFs local. The curated ZIP archives in
 # this directory are intentionally tracked and published as downloads.

@@ -15,8 +15,8 @@ permalink: /blog/reading/e-books/
 
 <!--more-->
 
-- [中文打字机：一个世纪的汉字突围史（[美]墨磊宁)](../docs/中文打字机：一个世纪的汉字突围史（[美]墨磊宁\).pdf)
-- [Clinical Handbook of Psychotropic Drugs 21st edition](../docs/精神科药物临床手册Clinical%20Handbook%20of%20Psychotropic%20Drugs%20第21版(etc.).pdf)
+- [中文打字机：一个世纪的汉字突围史（[美]墨磊宁)](<{{ '/docs/中文打字机：一个世纪的汉字突围史.pdf' | relative_url | uri_escape }}>)
+- [Clinical Handbook of Psychotropic Drugs 21st edition](<{{ '/docs/精神科药物临床手册Clinical Handbook of Psychotropic Drugs 第21版.pdf' | relative_url | uri_escape }}>)
 - [ZOMI 的 AI System 讲义](https://infrasys-ai.github.io/aisystem-docs/01Introduction/README.html)
 - [ZOMI 的 AI Infra 讲义](https://infrasys-ai.github.io/aiinfra-docs/00Summary/README.html)
 - [OpenMLSys 机器学习系统：设计和实现](https://openmlsys.github.io/v1/cn/index.html)

@@ -1,8 +1,8 @@
 # Use a relative URL for an internal page or a full URL for an external project.
-- title: "First Prize, 2026 National CSCC - Compiler System Design Contest (Bi Sheng Cup, Challenge Track; one of only five winning teams nationwide)"
+- title: "First Prize, 2026 National CSCC - Compiler System Design Contest (HUAWEI BiSheng Cup, Challenge Track; one of only five winning teams nationwide)"
   summary: "Developed an optimized FlashAttention fwd&bwd op based on the Triton-Ascend interface, featuring fine-grained CV pipeline scheduling, AIC-friendly program assigns and optimized GM/UB transfers."
   tags: "contest, Triton-Ascend, operator"
-  url: "https://ustc-kernel-innovation.github.io/homepage/"
+  url: "https://mp.weixin.qq.com/s/0ANecBHFBmv4ZlAyGbdTNQ"
 
 #- title: "Project Two"
 #  summary: "A second project with enough context for a visitor to understand why it matters."
